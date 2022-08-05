@@ -1,4 +1,4 @@
-setInterval(() => {
+function getColor() {
   // Créer 3 variables pour stocker 3 chiffres aléatoires
   const r = Math.floor(Math.random() * 255);
   const g = Math.floor(Math.random() * 255);
@@ -13,4 +13,6 @@ setInterval(() => {
 
   // Montrer sur le body la couleur rgb()
   document.body.innerHTML = `<h2>${color}</h2>`;
-}, 1000);
+}
+
+setInterval(getColor, 1000);
