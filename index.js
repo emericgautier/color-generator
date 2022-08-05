@@ -12,3 +12,4 @@ console.log(color);
 document.body.style.background = color;
 
 // Montrer sur le body la couleur rgb()
+document.body.innerHTML = `<h2>${color}</h2>`;
