@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s linear;
 }
 h2 {
     background: rgba(0, 0, 0, 0.500);
