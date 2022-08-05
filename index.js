@@ -9,5 +9,6 @@ const color = `rgb(${r}, ${g}, ${b})`;
 console.log(color);
 
 // Donner au body une couleur de fond en rgb()
+document.body.style.background = color;
 
 // Montrer sur le body la couleur rgb()
