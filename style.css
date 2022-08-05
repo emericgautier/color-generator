@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    background: rgba(0, 0, 0, 0.500);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
